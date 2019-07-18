@@ -89,3 +89,22 @@ function fixSizes() {
 		$(this).css('margin-top', ($(this).parent().height() - $(this).height()) / 2);
 	});
 }
+
+function password() {
+var testV = 1;
+var pass1 = prompt('Please input the password!','');
+while (testV < 3) {
+if (!pass1)
+break;
+if (pass1 == "lewis") {
+window.open("http://spst.shanghaitech.edu.cn/2018/0301/c2356a17070/page.htm");
+}
+testV+=1;
+var pass1 =
+prompt('Password error!');
+}
+if (pass1!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+document.write(password());
