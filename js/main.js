@@ -97,7 +97,7 @@ while (testV < 3) {
 if (!pass1)
 break;
 if (pass1 == "lewis") {
-window.open("http://spst.shanghaitech.edu.cn/2018/0301/c2356a17070/page.htm");
+window.open("http://isynbio.siat.ac.cn/zhonglab");
 }
 testV+=1;
 var pass1 =
