@@ -90,21 +90,3 @@ function fixSizes() {
 	});
 }
 
-function password() {
-var testV = 1;
-var pass1 = prompt('Please input the password!','');
-while (testV < 3) {
-if (!pass1)
-break;
-if (pass1 == "lewis") {
-window.open("http://isynbio.siat.ac.cn/zhonglab");
-}
-testV+=1;
-var pass1 =
-prompt('Password error!');
-}
-if (pass1!="password" & testV ==3)
-history.go(-1);
-return " ";
-}
-document.write(password());
